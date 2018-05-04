@@ -1,0 +1,53 @@
+			Chaper 13 
+
+Abstract 
+---------------------------
+An abstract method cannot be contained in a nonabstract class
+
+Subclass does not implement all the abstract methods, must be defined abstract
+
+Nonabstract subclass, all the abstract methods must be implemented
+
+An abstract class cannot be instantiated using the new operator.
+
+Abstract class can still define its constructors, which are invoked in the constructors of its subclasses
+
+
+Interface
+-----------------------------
+An interface is treated like a special class in Java. 
+
+Each interface is compiled into a separate bytecode file
+
+Cannot create an instance from an interface using the new operator
+
+Can use an interface more or less the same way you use an abstract class
+
+
+Modifiers in Interfaces
+----------------------------------
+All data fields are public final static 
+
+All methods are public abstract 
+
+modifiers can be omitted
+
+Comparable interface, the compareTo method is implemented in these classes
+
+public interface Comparable<E> {
+  public int compareTo(E o);
+}
+
+Cloneable Interface, its objects can be cloned using the clone() method
+
+Shallow vs. Deep Copy
+
+
+Whether to use an interface or a class?
+---------------------------------------------------------
+A strong is-a relationship that clearly describes a parent-child relationship should be modeled using classes
+
+A weak is-a relationship, also known as an is-kind-of relationship, indicates that an object possesses a certain property. 
+A weak is-a relationship can be modeled using interfaces. .
+
+

@@ -1,0 +1,43 @@
+			Designing a Class
+
+Coherence
+------------------------
+A class should describe a single entity
+
+All the class operations should logically fit together to support a coherent purpose
+
+You should not combine students and staff in the same class, 
+because students and staff have different entities
+
+
+Separating responsibilities
+-----------------------------------------
+Too many responsibilities can be broken into several classes to separate responsibilities
+
+Example classes deal with strings:  String, StringBuilder, and StringBuffer
+
+
+Reuse
+---------------
+Classes are designed for reuse. 
+
+No restrictions on what or when the user can do with it
+
+
+Standard
+----------------
+Provide a public no-arg constructor 
+
+Override the equals() method and the toString() method
+
+Follow standard Java programming style and naming conventions
+
+Using Visibility Modifiers; private, public, protected
+
+Private modifier to hide its data from direct access by clients
+
+Getter/Setter
+
+A property that is shared by all the instances of the class should be declared as a static 
+
+

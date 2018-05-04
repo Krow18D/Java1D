@@ -1,0 +1,97 @@
+			Chaper 11 
+
+Inheritance
+---------------------------
+What is the best way to design these classes so to avoid redundancy? The answer is to use inheritance
+
+Superclass’s constructor are not inherited
+
+A constructor may invoke an overloaded constructor or its superclass’s constructor. 
+If none of them is invoked explicitly, the compiler puts super() as the first statement in the constructor. 
+
+Constructing an instance of a class invokes all the superclasses’ constructors along the inheritance chain. 
+This is known as constructor chaining.
+
+A subclass inherits methods from a superclass. 
+To modify the implementation of a method defined in the superclass. 
+This is referred to as method overriding. 
+
+Private method cannot be overridden
+
+Static method can be inherited but static method cannot be overridden.
+
+Overriding vs. Overloading
+
+Every class in Java is descended from the java.lang.Object
+
+Polymorphism
+---------------------------------
+Polymorphism means that a variable of a supertype can refer to a subtype object.
+
+An object of a subtype can be used wherever its supertype value is required. 
+This feature is known as polymorphism.
+
+public class PolymorphismDemo {
+  public static void main(String[] args) {
+    m(new GraduateStudent());
+    m(new Student());
+    m(new Person());
+    m(new Object());
+  }
+ 
+  public static void m(Object x) {
+    System.out.println(x.toString());
+  }
+}
+
+Dynamic Binding
+-----------------------------------
+Classs have their own implementation of the XXX method. 
+Which implementation is used will be determined dynamically by the JVMachine at runtime. 
+This capability is known as dynamic binding. 
+
+JVM searches the implementation for the method p in C1, C2, ..., Cn-1 and Cn, in this order, until it is found. 
+The search stops and the first-found implementation is invoked.
+
+Casting
+---------------------------------
+Casting can also be used to convert an object of one class type to another within an inheritance hierarchy. 
+
+Object o = new Student();  // Implicit casting
+
+Student b = (Student) o;  // Explicit casting
+
+instance of
+--------------------------------
+Use the instanceof operator to test whether an object is an instance of a class
+
+equals() method
+--------------------------------
+The equals() method compares the contents of two objects. 
+
+The == comparison operator is used for comparing two primitive data type values 
+or for determining whether two objects have the same references.
+
+The == operator is stronger than the equals() method
+because it checks whether the two reference variables refer to the same object
+
+ArrayList
+------------------------------
+ArrayList class that can be used to store an unlimited number of objects.
+
+protected modifier
+-------------------------------
+A protected data or a protected method in a public class can be accessed by any class in the same package or its subclasses, even if the subclasses are in a different package
+
+A subclass may override a protected method in its superclass 
+cannot weaken the accessibility of a method defined in the superclass
+
+Final Modifier
+-------------------------------
+The final class cannot be extended
+
+The final variable is a constant
+
+The final method cannot be overridden by its subclasses
+
+ 			--------------------------------------------

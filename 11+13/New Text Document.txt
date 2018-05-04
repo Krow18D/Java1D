@@ -1,0 +1,22 @@
+https://fricke.co.uk/Teaching/CS251/lab4/
+
+http://www4.ncsu.edu/~spbalik/java/AB.html
+
+http://www.bcs.org/content/ConWebDoc/3401
+
+http://sce2.umkc.edu/csee/mullinsj/it350/notes.html 		//IT350 - Object Oriented Software Development
+
+http://cs1331.gatech.edu/fall2016.html
+
+http://technodocbox.com/Java/69595715-Cs-1331-exam-3-practice-answer-key.html
+
+http://www.skylit.com/projects/index.html			//Java Methods OOP and Data Structures 3rd AP
+
+https://www.cs.ait.ac.th/~marikhu/OOPWA/2nd_Sem-2012/
+
+http://syllabus.cs.manchester.ac.uk/ugt/2016/COMP16212/alllabs.pdf	//COMP16212 Laboratories Introduction
+
+http://fileadmin.cs.lth.se/cs/education/edaf20/labs/laboratoryexercises.pdf	//EDAF20: Laboratory Assignments
+
+
+https://cscircles.cemc.uwaterloo.ca/java_visualize/
